@@ -1,15 +1,38 @@
 ﻿using System;
+using Skybrud.Social.Http;
+using Skybrud.Social.LinkedIn.Endpoints.Raw;
 using Skybrud.Social.LinkedIn.Interfaces;
 using Skybrud.Social.OAuth;
 
 namespace Skybrud.Social.LinkedIn.OAuth1a {
-    
+
     public class LinkedInOAuthClient : OAuthClient, ILinkedInOAuthClient {
 
         #region Constructors
 
+        /// <summary>
+        /// Gets a reference to the raw groups endpoint.
+        /// </summary>
+        public LinkedInGroupsRawEndpoint Groups { get; private set; }
+
+        /// <summary>
+        /// Gets a reference to the raw pages endpoint.
+        /// </summary>
+        public LinkedInPagesRawEndpoint Pages { get; private set; }
+
+        /// <summary>
+        /// Gets a reference to the raw users endpoint.
+        /// </summary>
+        public LinkedInUsersRawEndpoint Users { get; private set; }
+
+        #endregion
+
+        #region Constructors
+
         public LinkedInOAuthClient() : this(null, null, null, null, null) {
-            // Call overloaded constructor
+            Groups = new LinkedInGroupsRawEndpoint(this);
+            Pages = new LinkedInPagesRawEndpoint(this);
+            Users = new LinkedInUsersRawEndpoint(this);
         }
 
         public LinkedInOAuthClient(string consumerKey, string consumerSecret) : this(consumerKey, consumerSecret, null, null, null) {
@@ -35,6 +58,10 @@ namespace Skybrud.Social.LinkedIn.OAuth1a {
             AccessTokenUrl = "https://api.linkedin.com/uas/oauth/accessToken";
         
         }
+
+        #endregion
+
+        #region Stuff?
 
         public string Test(params string[] fields) {
 
@@ -75,6 +102,19 @@ namespace Skybrud.Social.LinkedIn.OAuth1a {
         }
 
         #endregion
+
+        #region Member methods
+
+        public SocialHttpResponse DoHttpGetRequest(string url, ILinkedInGetOptions options) {
+            throw new NotImplementedException("Well, this is awkward!");
+        }
+
+        public override SocialHttpResponse DoHttpGetRequest(string url, SocialQueryString query) {
+            throw new NotImplementedException("Well, this is awkward!");
+        }
+
+        #endregion
+
     }
 
 }

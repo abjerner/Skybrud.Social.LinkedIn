@@ -44,8 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Endpoints\LinkedInPagesEndpoint.cs" />
+    <Compile Include="Endpoints\LinkedInGroupsEndpoint.cs" />
+    <Compile Include="Endpoints\LinkedInUsersEndpoint.cs" />
+    <Compile Include="Endpoints\Raw\LinkedInPagesRawEndpoint.cs" />
+    <Compile Include="Endpoints\Raw\LinkedInGroupsRawEndpoint.cs" />
+    <Compile Include="Endpoints\Raw\LinkedInUsersRawEndpoint.cs" />
     <Compile Include="Exceptions\LinkedInApiException.cs" />
     <Compile Include="ExtensionMethods\XElementExtensionMethods.cs" />
+    <Compile Include="Fields\LinkedInFieldCollection.cs" />
+    <Compile Include="Interfaces\ILinkedInGetOptions.cs" />
     <Compile Include="Interfaces\ILinkedInOAuthClient.cs" />
     <Compile Include="LinkedInConstants.cs" />
     <Compile Include="LinkedInService.cs" />
@@ -53,16 +61,23 @@
     <Compile Include="OAuth2\LinkedInAccessTokenResponse.cs" />
     <Compile Include="OAuth2\LinkedInOAuthClient.cs" />
     <Compile Include="Objects\LinkedInLikesSummary.cs" />
+    <Compile Include="Objects\LinkedInObject.cs" />
     <Compile Include="Objects\LinkedInPersonSummary.cs" />
     <Compile Include="Objects\LinkedInPostSummary.cs" />
+    <Compile Include="Objects\Locations\LinkedInCountry.cs" />
+    <Compile Include="Objects\Locations\LinkedInLocation.cs" />
+    <Compile Include="Objects\Users\LinkedInUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\AssemblyInfoGenerated.cs" />
+    <Compile Include="Responses\LinkedInResponse.cs" />
+    <Compile Include="Responses\Users\LinkedInGetUserResponse.cs" />
     <Compile Include="Responses\LinkedInPostsResponse.cs" />
     <Compile Include="Responses\LinkedInBasicProfileResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>"$(SolutionDir)Skybrud.Social.PreBuildTool.exe" 2015-08-12 "$(ProjectPath)"</PreBuildEvent>

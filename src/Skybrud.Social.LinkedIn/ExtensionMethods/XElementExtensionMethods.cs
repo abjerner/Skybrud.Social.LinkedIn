@@ -90,6 +90,26 @@ namespace Skybrud.Social.LinkedIn.ExtensionMethods {
 
         }
 
+        public static XElement GetElement(this XElement element, XName name) {
+            return element == null ? null : element.Element(name);
+        }
+
+        public static T GetElement<T>(this XElement element, XName name, Func<XElement, T> func) {
+            return func(element == null ? null : element.Element(name));
+        }
+
+        public static string GetElementValue(this XElement element, XName name) {
+            if (element == null) return null;
+            XElement child = element.Element(name);
+            return child == null ? null : child.Value;
+        }
+
+        public static T GetElementValue<T>(this XElement element, XName name, Func<string, T> func) {
+            if (element == null) return func(null);
+            XElement child = element.Element(name);
+            return func(child == null ? null : child.Value);
+        }
+
         public static T GetElementValueOrDefault<T>(this XElement element, XName name) {
             if (element == null) return default(T);
             XElement child = element.Element(name);
