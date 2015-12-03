@@ -1,0 +1,481 @@
+﻿{
+  "_count": 10,
+  "_start": 0,
+  "_total": 53,
+  "values": [
+    {
+      "isCommentable": true,
+      "isLikable": true,
+      "isLiked": false,
+      "likes": {
+        "_total": 1,
+        "values": [{"person": {
+          "firstName": "Christina",
+          "id": "fbungoA3jl",
+          "lastName": "Møller"
+        }}]
+      },
+      "numLikes": 1,
+      "timestamp": 1447920001679,
+      "updateComments": {"_total": 0},
+      "updateContent": {
+        "company": {
+          "id": 9459579,
+          "name": "MADE - Manufacturing Academy of Denmark"
+        },
+        "companyStatusUpdate": 
+        {
+            "share": {
+                "comment": "PhD scholarship in Precision Injection Moulding of Micro Features using Integrated Process/Product Quality Assurance https://lnkd.in/e2Rfmfx",
+                "id": "s6073016654688768000",
+                "source": {
+                    "serviceProvider": { "name": "LINKEDIN" },
+                    "serviceProviderShareId": "s6073016654688768000"
+                },
+            "timestamp": 1447920001679,
+            "visibility": { "code": "anyone" }
+            }
+        }
+      },
+      "updateKey": "UPDATE-c9459579-6073016654600691712",
+      "updateType": "CMPY"
+    },
+    {
+      "isCommentable": true,
+      "isLikable": true,
+      "isLiked": false,
+      "numLikes": 0,
+      "timestamp": 1447843530094,
+      "updateComments": {"_total": 0},
+      "updateContent": {
+        "company": {
+          "id": 9459579,
+          "name": "MADE - Manufacturing Academy of Denmark"
+        },
+        "companyStatusUpdate": {"share": {
+          "comment": "Spændende stilling som Scientific Officer indenfor samfund i Innovationsfonden. Deadline er den 22. november 2015\n https://lnkd.in/erhPmKN",
+          "content": {
+            "description": "Arbejdssted Innovationsfonden Østergade 26 A, 4. sal  1100 København K Ansøgningsfrist: 22-11-2015 Vejen til jobbet  Klik her og upload din ansøgning mv. senest søndag den 22. november 2015.  Vil du vide mere om jobbet, så kontakt vicedirektør Tore....",
+            "eyebrowUrl": "http://innovationsfonden.dk/da/job/innovationsfonden-soeger-scientific-officer-indenfor-samfund",
+            "shortenedUrl": "https://lnkd.in/erhPmKN",
+            "submittedUrl": "http://innovationsfonden.dk/da/job/innovationsfonden-soeger-scientific-officer-indenfor-samfund",
+            "title": "Innovationsfonden søger Scientific Officer indenfor samfund"
+          },
+          "id": "s6072695909618114560",
+          "source": {
+            "serviceProvider": {"name": "LINKEDIN"},
+            "serviceProviderShareId": "s6072695909618114560"
+          },
+          "timestamp": 1447843530094,
+          "visibility": {"code": "anyone"}
+        }}
+      },
+      "updateKey": "UPDATE-c9459579-6072695909525843968",
+      "updateType": "CMPY"
+    },
+    {
+      "isCommentable": true,
+      "isLikable": true,
+      "isLiked": false,
+      "numLikes": 0,
+      "timestamp": 1447421508825,
+      "updateComments": {"_total": 0},
+      "updateContent": {
+        "company": {
+          "id": 9459579,
+          "name": "MADE - Manufacturing Academy of Denmark"
+        },
+        "companyStatusUpdate": {"share": {
+          "comment": "I MADE forskes der inden for digitalisering, Internet of Things og virtual reality. https://lnkd.in/efCi9vk",
+          "content": {
+            "description": "Digitalisering gør en forskel",
+            "eyebrowUrl": "https://buffer-pictures.s3.amazonaws.com/ecf704408c7078fe1b822fee1c7b99f6.9801e31a3103c06fb006e4a8faf3263a.gif",
+            "shortenedUrl": "https://lnkd.in/efCi9vk",
+            "submittedImageUrl": "https://buffer-pictures.s3.amazonaws.com/ecf704408c7078fe1b822fee1c7b99f6.9801e31a3103c06fb006e4a8faf3263a.gif",
+            "submittedUrl": "https://buffer-pictures.s3.amazonaws.com/ecf704408c7078fe1b822fee1c7b99f6.9801e31a3103c06fb006e4a8faf3263a.gif",
+            "thumbnailUrl": "https://media.licdn.com/media-proxy/ext?w=80&h=100&f=&hash=7I8GRzfPNcBYOm4u%2BSl%2FqthA3AA%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6ohh0cxw5s8KeCuVqi4VQJVtGSA23wEXr0q5LDfiS2JNiKKuSmpFkSeCRSlwQ1d7n9QWLpEJHqft_uLtsjgp6zIo7tPldXbE9nhDoevII4aU8it8T2U-6kYXZI0-oLP3nuMvfublQ",
+            "title": "buffer-pictures.s3.amazonaws.com"
+          },
+          "id": "s6070925824117268480",
+          "source": {
+            "serviceProvider": {"name": "LINKEDIN"},
+            "serviceProviderShareId": "s6070925824117268480"
+          },
+          "timestamp": 1447421508825,
+          "visibility": {"code": "anyone"}
+        }}
+      },
+      "updateKey": "UPDATE-c9459579-6070925824037576704",
+      "updateType": "CMPY"
+    },
+    {
+      "isCommentable": true,
+      "isLikable": true,
+      "isLiked": false,
+      "likes": {
+        "_total": 3,
+        "values": [
+          {"person": {
+            "firstName": "Samuel",
+            "id": "VdfPIdhOKX",
+            "lastName": "Brøgger"
+          }},
+          {"person": {
+            "firstName": "Svend",
+            "id": "HjOyhKumUC",
+            "lastName": "Køster"
+          }},
+          {"person": {
+            "firstName": "Shirly",
+            "id": "N9BIeDHzn4",
+            "lastName": "Lee"
+          }}
+        ]
+      },
+      "numLikes": 8,
+      "timestamp": 1447417492689,
+      "updateComments": {"_total": 0},
+      "updateContent": {
+        "company": {
+          "id": 9459579,
+          "name": "MADE - Manufacturing Academy of Denmark"
+        },
+        "companyStatusUpdate": {"share": {
+          "comment": "I løbet af et år vendte Ribe Jernindustri et underskud på 84 mio. kr. i 2009 til et trecifret millionoverskud i dag. Ansættelsen af en ph.d. i mikrobiologi var fødselshjælper, og onsdag fik virksomheden Akademikerprisen 2015. https://lnkd.in/eaTggUC",
+          "content": {
+            "description": "- I 2008 var vi uhyggelig tæt på konkurs. En ny visionær direktør indså, at vi havde brug for akademikere til at eksekvere den nye strategi. Det var der, det startede. I løbet af et år vendte vi et underskud på 84 mio. kr. til et overskud på en mio.",
+            "eyebrowUrl": "http://di.dk/dibusiness/nyheder/Pages/Akademikerreddervirksomhedfrakonkurs.aspx?isnewslink=true&custguid=bcdafb0d-0723-45b3-b0ab-1070b542d3af_1173&newsguid=26e299d1-271b-44ec-b2ea-08cc0e8be5eb_907&newscat=DI+Business&newsversion=20151113",
+            "shortenedUrl": "https://lnkd.in/eaTggUC",
+            "submittedImageUrl": "http://di.dk/SiteCollectionImages/DI%20Business%20webfoto/Arbejdsmarked/20150706-134854-4-7360x4912max-PictureSafe-imag.jpg",
+            "submittedUrl": "http://di.dk/dibusiness/nyheder/Pages/Akademikerreddervirksomhedfrakonkurs.aspx?isnewslink=true&custguid=bcdafb0d-0723-45b3-b0ab-1070b542d3af_1173&newsguid=26e299d1-271b-44ec-b2ea-08cc0e8be5eb_907&newscat=DI+Business&newsversion=20151113",
+            "thumbnailUrl": "https://media.licdn.com/media-proxy/ext?w=80&h=100&f=&hash=EF6XPnBc2QNo736jyICUsEI2ip4%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0VWj3R8RjS8o9KuiokO84URTTI3SK23wDHDp5aH5dXXpC4KcIOz05x4DeixGxVZkIKv3X0GjQMbmf8myLJ4q3sP6JpDlM1dROUp71DobtIRvdE1p4sfwVfOkOX8c3-1AIB-0MK38dVcMCyMysOWELICWI00W",
+            "title": "Akademiker redder virksomhed fra konkurs"
+          },
+          "id": "s6070908979226173440",
+          "source": {
+            "serviceProvider": {"name": "LINKEDIN"},
+            "serviceProviderShareId": "s6070908979226173440"
+          },
+          "timestamp": 1447417492689,
+          "visibility": {"code": "anyone"}
+        }}
+      },
+      "updateKey": "UPDATE-c9459579-6070908979146485760",
+      "updateType": "CMPY"
+    },
+    {
+      "isCommentable": true,
+      "isLikable": true,
+      "isLiked": false,
+      "likes": {
+        "_total": 3,
+        "values": [
+          {"person": {
+            "firstName": "Ann-Louise",
+            "id": "fswLCGiZz6",
+            "lastName": "Andersen"
+          }},
+          {"person": {
+            "firstName": "Jakob Stepping",
+            "id": "u-I92PCVF9",
+            "lastName": "Pedersen"
+          }},
+          {"person": {
+            "firstName": "Jesper",
+            "id": "qOLWnY215G",
+            "lastName": "Kristensen"
+          }}
+        ]
+      },
+      "numLikes": 4,
+      "timestamp": 1447080865605,
+      "updateComments": {"_total": 0},
+      "updateContent": {
+        "company": {
+          "id": 9459579,
+          "name": "MADE - Manufacturing Academy of Denmark"
+        },
+        "companyStatusUpdate": {"share": {
+          "comment": "Mere end 100 personer deltog i MADE Virksomhedsbesøg hos LEGO den 28. oktober. Se en kort film fra dagen her.\n\nhttps://lnkd.in/eMqVHuV",
+          "content": {
+            "description": "Den 28. oktober var der MADE Virksomhedsbesøg hos LEGO. Teamet for dagen var hurtig produktudvikling.",
+            "eyebrowUrl": "https://www.youtube.com/watch?v=YmKFCdnur0U",
+            "shortenedUrl": "https://lnkd.in/eMqVHuV",
+            "submittedImageUrl": "https://i.ytimg.com/vi/YmKFCdnur0U/hqdefault.jpg",
+            "submittedUrl": "https://www.youtube.com/watch?v=YmKFCdnur0U",
+            "thumbnailUrl": "https://media.licdn.com/media-proxy/ext?w=80&h=100&f=&hash=15umeqv2Uvbxqw0kApF%2FXqN%2ByDI%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6j3QIOyxEmrq2OoACm7Qh-SKn6IWT_Hmeqn8rYISO8L5aaJfa__h1B",
+            "title": "MADE Virksomhedsbesøg hos LEGO"
+          },
+          "id": "s6069497062867681281",
+          "source": {
+            "serviceProvider": {"name": "LINKEDIN"},
+            "serviceProviderShareId": "s6069497062867681281"
+          },
+          "timestamp": 1447080865605,
+          "visibility": {"code": "anyone"}
+        }}
+      },
+      "updateKey": "UPDATE-c9459579-6069497062779600896",
+      "updateType": "CMPY"
+    },
+    {
+      "isCommentable": true,
+      "isLikable": true,
+      "isLiked": false,
+      "likes": {
+        "_total": 3,
+        "values": [
+          {"person": {
+            "firstName": "Harshpal",
+            "id": "iMeM8DJ84S",
+            "lastName": "Singh"
+          }},
+          {"person": {
+            "firstName": "Kim Rask",
+            "id": "9EFxSeSDgd",
+            "lastName": "Petersen"
+          }},
+          {"person": {
+            "firstName": "Stein-Erik",
+            "id": "NdvfNJhshA",
+            "lastName": "Linna"
+          }}
+        ]
+      },
+      "numLikes": 7,
+      "timestamp": 1446793462380,
+      "updateComments": {"_total": 0},
+      "updateContent": {
+        "company": {
+          "id": 9459579,
+          "name": "MADE - Manufacturing Academy of Denmark"
+        },
+        "companyStatusUpdate": {"share": {
+          "comment": "Der er mange gode grunde til at tage en uddannelse inden for automatisering. En af Siemens ansatte har brugt sine evner til at udvikle et digitalt fadølssystem til Smukfest. Nu skænker gæsterne selv fadøllene og betaling foregår med chip-armbånd, så de slipper de for kontanter og kø. Se video med Siemens øl-ingeniør  her: https://lnkd.in/ei6exe2",
+          "content": {
+            "description": "Morten fortæller passioneret om, hvordan han som frivillig udviklede Smukfests digitale fadølsanlæg. Nu skænker gæsterne selv fadøllene og betaling foregår med chip-armbånd, så de slipper de for kontanter og kø. Til dagligt arbejder han og ca. 1.500...",
+            "eyebrowUrl": "https://www.youtube.com/watch?v=b5M5yECehVw&feature=youtu.be",
+            "shortenedUrl": "https://lnkd.in/ei6exe2",
+            "submittedImageUrl": "https://i.ytimg.com/vi/b5M5yECehVw/hqdefault.jpg",
+            "submittedUrl": "https://www.youtube.com/watch?v=b5M5yECehVw&feature=youtu.be",
+            "thumbnailUrl": "https://media.licdn.com/media-proxy/ext?w=80&h=100&f=&hash=6tIT2RCAF%2Bd0iekHrpw5qnFYwec%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6j3QIOyxEmrq2OoACm7QhFEK-JG0XSDn3MvcrYISO8L5aaJfa__h1B",
+            "title": "The Beer Engineer"
+          },
+          "id": "s6068291606388236289",
+          "source": {
+            "serviceProvider": {"name": "LINKEDIN"},
+            "serviceProviderShareId": "s6068291606388236289"
+          },
+          "timestamp": 1446793462380,
+          "visibility": {"code": "anyone"}
+        }}
+      },
+      "updateKey": "UPDATE-c9459579-6068291606308548608",
+      "updateType": "CMPY"
+    },
+    {
+      "isCommentable": true,
+      "isLikable": true,
+      "isLiked": false,
+      "likes": {
+        "_total": 3,
+        "values": [
+          {"person": {
+            "firstName": "Jesper",
+            "id": "qOLWnY215G",
+            "lastName": "Kristensen"
+          }},
+          {"person": {
+            "firstName": "Maryam",
+            "id": "ZIbzmWjmbJ",
+            "lastName": "G. Hessaroeyeh"
+          }},
+          {"person": {
+            "firstName": "Svend",
+            "id": "HjOyhKumUC",
+            "lastName": "Køster"
+          }}
+        ]
+      },
+      "numLikes": 6,
+      "timestamp": 1446722129450,
+      "updateComments": {"_total": 0},
+      "updateContent": {
+        "company": {
+          "id": 9459579,
+          "name": "MADE - Manufacturing Academy of Denmark"
+        },
+        "companyStatusUpdate": {"share": {
+          "comment": "Industrinews fortæller om hvad du kan opleve på MADE Årsdag 2015 \nLæs hele programmet her: https://lnkd.in/eZnbYcf \n\nhttps://lnkd.in/ex3WAh4",
+          "content": {
+            "description": "This is \"MADE årsdag 2015\" by Industrisamarbejdet on Vimeo, the home for high quality videos and the people who love them.",
+            "eyebrowUrl": "https://vimeo.com/144284918",
+            "shortenedUrl": "https://lnkd.in/eZnbYcf",
+            "submittedImageUrl": "http://i.vimeocdn.com/video/542089073_1280.jpg",
+            "submittedUrl": "https://vimeo.com/144284918",
+            "thumbnailUrl": "https://media.licdn.com/media-proxy/ext?w=80&h=100&f=&hash=5JGF7mB1CjxZ4SWfE9XeL%2BzmsY8%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0VjkhRIXxxMi5KDPrkC9q1FOQYfTTTWlWSWi89WHYxjoe8_fZ-jh8w",
+            "title": "MADE årsdag 2015"
+          },
+          "id": "s6067992414394605569",
+          "source": {
+            "serviceProvider": {"name": "LINKEDIN"},
+            "serviceProviderShareId": "s6067992414394605569"
+          },
+          "timestamp": 1446722129450,
+          "visibility": {"code": "anyone"}
+        }}
+      },
+      "updateKey": "UPDATE-c9459579-6067992414281351168",
+      "updateType": "CMPY"
+    },
+    {
+      "isCommentable": true,
+      "isLikable": true,
+      "isLiked": false,
+      "likes": {
+        "_total": 3,
+        "values": [
+          {"person": {
+            "firstName": "Katrine",
+            "id": "uiZFW0LpDm",
+            "lastName": "Foget"
+          }},
+          {"person": {
+            "firstName": "Marie Thorsø",
+            "id": "9QrrPkZKfu",
+            "lastName": "Kousgaard"
+          }},
+          {"person": {
+            "firstName": "Henrik",
+            "id": "z1slhgj1Lj",
+            "lastName": "Holm"
+          }}
+        ]
+      },
+      "numLikes": 12,
+      "timestamp": 1446464802808,
+      "updateComments": {"_total": 0},
+      "updateContent": {
+        "company": {
+          "id": 9459579,
+          "name": "MADE - Manufacturing Academy of Denmark"
+        },
+        "companyStatusUpdate": {"share": {
+          "comment": "Lær om fremtidens leverandørsamarbejde når MADE holder innovationskonference med fokus på supply chain. Hør fra Terma, Novo Nordisk, Vestas og Skov hvordan de styrer deres forsyningskæde optimalt. Arrangementet den 24. november holdes på Aalborg Universitet.\nhttps://lnkd.in/d323wh9",
+          "id": "s6066913108226555904",
+          "source": {
+            "serviceProvider": {"name": "LINKEDIN"},
+            "serviceProviderShareId": "s6066913108226555904"
+          },
+          "timestamp": 1446464802808,
+          "visibility": {"code": "anyone"}
+        }}
+      },
+      "updateKey": "UPDATE-c9459579-6066913108125892609",
+      "updateType": "CMPY"
+    },
+    {
+      "isCommentable": true,
+      "isLikable": true,
+      "isLiked": false,
+      "likes": {
+        "_total": 3,
+        "values": [
+          {"person": {
+            "firstName": "Shirly",
+            "id": "N9BIeDHzn4",
+            "lastName": "Lee"
+          }},
+          {"person": {
+            "firstName": "Mads Qvist",
+            "id": "3ypYvf3M54",
+            "lastName": "Frederiksen"
+          }},
+          {"person": {
+            "firstName": "Tina Lindekilde",
+            "id": "x2l1pu9Fu9",
+            "lastName": "Sørensen"
+          }}
+        ]
+      },
+      "numLikes": 4,
+      "timestamp": 1445599283646,
+      "updateComments": {"_total": 0},
+      "updateContent": {
+        "company": {
+          "id": 9459579,
+          "name": "MADE - Manufacturing Academy of Denmark"
+        },
+        "companyStatusUpdate": {"share": {
+          "comment": "Hør fra virksomhederne Terma, Vestas, Novo Nordisk og Skov hvordan de arbejder med fremtidens leverandørsamarbejde, når MADE invitere til Innovationskonference på Aalborg Universitet den 24. november 2015.\n\nLæs invitationen og tilmeld dig her:\nhttps://lnkd.in/d323wh9",
+          "content": {
+            "description": "made.dk",
+            "eyebrowUrl": "http://made.dk/uf/90000_99999/91497/b434741d1eadf842b000364c6cce2e60.pdf",
+            "shortenedUrl": "https://lnkd.in/d323wh9",
+            "submittedImageUrl": "http://image-store.slidesharecdn.com/cebd0c19-bef3-4a9f-aef2-c5c316fca604-large.jpeg",
+            "submittedUrl": "http://made.dk/uf/90000_99999/91497/b434741d1eadf842b000364c6cce2e60.pdf",
+            "thumbnailUrl": "https://media.licdn.com/media-proxy/ext?w=80&h=100&f=&hash=cyriAGIYwKKMbnYAm4csDqpyW3Y%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdfyS8K5PfKrOouQ9DLi8clFU7KfL5FWbjD8C5eInue4oi2pHlII24ZxUBbFI8lWxI",
+            "title": "made.dk"
+          },
+          "id": "s6063282857751699456",
+          "source": {
+            "serviceProvider": {"name": "LINKEDIN"},
+            "serviceProviderShareId": "s6063282857751699456"
+          },
+          "timestamp": 1445599283646,
+          "visibility": {"code": "anyone"}
+        }}
+      },
+      "updateKey": "UPDATE-c9459579-6063282857692971008",
+      "updateType": "CMPY"
+    },
+    {
+      "isCommentable": true,
+      "isLikable": true,
+      "isLiked": false,
+      "likes": {
+        "_total": 2,
+        "values": [
+          {"person": {
+            "firstName": "Shirly",
+            "id": "N9BIeDHzn4",
+            "lastName": "Lee"
+          }},
+          {"person": {
+            "firstName": "Svend",
+            "id": "HjOyhKumUC",
+            "lastName": "Køster"
+          }}
+        ]
+      },
+      "numLikes": 2,
+      "timestamp": 1445435817688,
+      "updateComments": {"_total": 0},
+      "updateContent": {
+        "company": {
+          "id": 9459579,
+          "name": "MADE - Manufacturing Academy of Denmark"
+        },
+        "companyStatusUpdate": {"share": {
+          "comment": "Skal dit produkt være smart eller ikke smart? Mere end 80 personer deltog i sidste uge i MADE Open Lab. Se video fra arrangementet her: https://lnkd.in/d9pPPYb",
+          "content": {
+            "description": "MADE Open Lab om Smarte Produkter den 8. oktober 2015 i Århus. Hør bl.a. om hvordan Grundfos arbejder med Internet of Things",
+            "eyebrowUrl": "https://www.youtube.com/watch?v=XD6ek4Hqpyw",
+            "shortenedUrl": "https://lnkd.in/d9pPPYb",
+            "submittedUrl": "https://www.youtube.com/watch?v=XD6ek4Hqpyw",
+            "title": "MADE Open Lab om Smarte Produkter"
+          },
+          "id": "s6062597231679139840",
+          "source": {
+            "serviceProvider": {"name": "LINKEDIN"},
+            "serviceProviderShareId": "s6062597231679139840"
+          },
+          "timestamp": 1445435817688,
+          "visibility": {"code": "anyone"}
+        }}
+      },
+      "updateKey": "UPDATE-c9459579-6062597231599452160",
+      "updateType": "CMPY"
+    }
+  ]
+}

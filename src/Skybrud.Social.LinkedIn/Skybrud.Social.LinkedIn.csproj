@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.5\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Skybrud.Social, Version=0.9.4.1, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Skybrud.Social.0.9.4.1\lib\net40\Skybrud.Social.dll</HintPath>
       <Private>True</Private>
@@ -44,9 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Endpoints\LinkedInCompaniesEndpoint.cs" />
     <Compile Include="Endpoints\LinkedInPagesEndpoint.cs" />
     <Compile Include="Endpoints\LinkedInGroupsEndpoint.cs" />
     <Compile Include="Endpoints\LinkedInUsersEndpoint.cs" />
+    <Compile Include="Endpoints\Raw\LinkedInCompaniesRawEndpoint.cs" />
     <Compile Include="Endpoints\Raw\LinkedInPagesRawEndpoint.cs" />
     <Compile Include="Endpoints\Raw\LinkedInGroupsRawEndpoint.cs" />
     <Compile Include="Endpoints\Raw\LinkedInUsersRawEndpoint.cs" />
@@ -61,21 +67,31 @@
     <Compile Include="OAuth2\LinkedInAccessTokenResponse.cs" />
     <Compile Include="OAuth2\LinkedInOAuthClient.cs" />
     <Compile Include="Objects\LinkedInLikesSummary.cs" />
+    <Compile Include="Objects\LinkedInJsonObject.cs" />
     <Compile Include="Objects\LinkedInObject.cs" />
     <Compile Include="Objects\LinkedInPersonSummary.cs" />
     <Compile Include="Objects\LinkedInPostSummary.cs" />
     <Compile Include="Objects\Locations\LinkedInCountry.cs" />
     <Compile Include="Objects\Locations\LinkedInLocation.cs" />
+    <Compile Include="Objects\Updates\LinkedInUpdate.cs" />
+    <Compile Include="Objects\Updates\LinkedInUpdateCompany.cs" />
+    <Compile Include="Objects\Updates\LinkedInUpdateCompanyStatus.cs" />
+    <Compile Include="Objects\Updates\LinkedInUpdateCompanyContent.cs" />
+    <Compile Include="Objects\Updates\LinkedInUpdatesCollection.cs" />
+    <Compile Include="Objects\Updates\LinkedInUpdateShare.cs" />
+    <Compile Include="Objects\Updates\LinkedInUpdateShareContent.cs" />
     <Compile Include="Objects\Users\LinkedInUser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\AssemblyInfoGenerated.cs" />
     <Compile Include="Responses\LinkedInResponse.cs" />
+    <Compile Include="Responses\Updates\LinkedInGetUpdatesResponse.cs" />
     <Compile Include="Responses\Users\LinkedInGetUserResponse.cs" />
     <Compile Include="Responses\LinkedInPostsResponse.cs" />
     <Compile Include="Responses\LinkedInBasicProfileResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="linkedInTest.json" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

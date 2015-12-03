@@ -24,6 +24,11 @@ namespace Skybrud.Social.LinkedIn.Interfaces {
         /// </summary>
         LinkedInUsersRawEndpoint Users { get; }
 
+        /// <summary>
+        /// Gets a reference to the raw companies endpoint.
+        /// </summary>
+        LinkedInCompaniesRawEndpoint Companies { get; }
+
         #endregion
 
         #region Member methods

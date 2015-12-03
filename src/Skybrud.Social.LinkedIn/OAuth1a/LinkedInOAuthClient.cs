@@ -25,6 +25,11 @@ namespace Skybrud.Social.LinkedIn.OAuth1a {
         /// </summary>
         public LinkedInUsersRawEndpoint Users { get; private set; }
 
+        /// <summary>
+        /// Gets a reference to the raw companies endpoint.
+        /// </summary>
+        public LinkedInCompaniesRawEndpoint Companies { get; private set; }
+
         #endregion
 
         #region Constructors
@@ -33,6 +38,7 @@ namespace Skybrud.Social.LinkedIn.OAuth1a {
             Groups = new LinkedInGroupsRawEndpoint(this);
             Pages = new LinkedInPagesRawEndpoint(this);
             Users = new LinkedInUsersRawEndpoint(this);
+            Companies = new LinkedInCompaniesRawEndpoint(this);
         }
 
         public LinkedInOAuthClient(string consumerKey, string consumerSecret) : this(consumerKey, consumerSecret, null, null, null) {

@@ -31,6 +31,11 @@ namespace Skybrud.Social.LinkedIn {
         /// </summary>
         public LinkedInUsersEndpoint Users { get; private set; }
 
+        /// <summary>
+        /// Gets a reference to the companies endpoint.
+        /// </summary>
+        public LinkedInCompaniesEndpoint Companies { get; private set; }
+
         #endregion
 
         #region Constructors
@@ -40,6 +45,7 @@ namespace Skybrud.Social.LinkedIn {
             Groups = new LinkedInGroupsEndpoint(this);
             Pages = new LinkedInPagesEndpoint(this);
             Users = new LinkedInUsersEndpoint(this);
+            Companies = new LinkedInCompaniesEndpoint(this);
         }
 
         #endregion
